@@ -1,30 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     var secciones = document.querySelectorAll(".seccion");
-
-//     secciones.forEach(function (seccion) {
-//         seccion.style.display = "none"; // Oculta todas las secciones
-//     });
-
-//     var opcionesMenu = document.querySelectorAll(".dropdown-item");
-
-//     opcionesMenu.forEach(function (opcion) {
-//         opcion.addEventListener("click", function (event) {
-//             event.preventDefault(); // Evita el comportamiento predeterminado del enlace
-
-//             var target = opcion.getAttribute("href");
-
-//             secciones.forEach(function (seccion) {
-//                 seccion.style.display = "none"; // Oculta todas las secciones
-//             });
-
-//             document.querySelector(target).style.display = "block"; // Muestra la sección correspondiente
-//         });
-//     });
-// });
 
 
 function mostrarSeccion(seccionId) {
@@ -38,4 +11,5 @@ function mostrarSeccion(seccionId) {
     var seccionSeleccionada = document.getElementById(seccionId);
     seccionSeleccionada.style.display = 'block';
 }
+
 

@@ -16,112 +16,136 @@
 
     <div class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid container">
-            <a href="menu.html" class="navbar-brand">Menu</a>
-            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <a href="menu.html" class="navbar-brand text-dark">Menu</a>
+            <button id="boton" class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Avion</a>
+                        <a href="#" class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown">Avion</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <button class="dropdown-item" onclick="mostrarSeccion('ingresar_avion')">Ingresar Datos</button>
+                                <button class="dropdown-item" onclick="mostrarSeccion('ingresar_avion')">Ingresar
+                                    Datos</button>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_avion')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_avion')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('actualizar_avion')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('actualizar_avion')">Actualizar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('visualizar_')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('visualizar_')">Visualizar
+                                    Datos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Base</a>
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Base</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Ingresar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('ingresar_base')">Ingresar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_base')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('actualizar_base')">Actualizar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('visualizar_base')">Visualizar
+                                    Datos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Piloto</a>
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Piloto</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Ingresar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('ingresar_piloto')">Ingresar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_piloto')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('actualizar_piloto')">Actualizar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('visualizar_piloto')">Visualizar Datos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tripulacion</a>
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Tripulacion</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Ingresar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('ingresar_tripulacion')">Ingresar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_tripulacion')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('actualizar_tripulacion')">Actualizar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('visualizar_tripulacion')">Visualizar Datos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Viaje</a>
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Viaje</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Ingresar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('ingresar_viaje')">Ingresar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_viaje')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('actualizar_viaje')">Actualizar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('visualizar_viaje')">Visualizar Datos</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Vuelo</a>
+                        <a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Vuelo</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Ingresar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('ingresar_vuelo')">Ingresar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Borrar Datos</a>
+                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('borrar_vuelo')">Borrar
+                                    Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Actualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('actualizar_vuelo')">Actualizar Datos</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-item" onclick="mostrarSeccion('')">Visualizar Datos</a>
+                                <a href="#" class="dropdown-item"
+                                    onclick="mostrarSeccion('visualizar_vuelo')">Visualizar Datos</a>
                             </li>
                         </ul>
                     </li>
@@ -138,9 +162,62 @@
     </div> -->
 
 
-    <section class="seccion"  id="ingresar_avion">
-        
-        <h1>Ingresar</h1>
+    <section class="seccion" id="ingresar_avion">
+
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Identificación del avión</span>
+                        <input type="text" id="idAvion" name="idAvion"placeholder="Ingrese la ID" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Capacidad de pasajeros</span>
+                        <input type="text" placeholder="Ingrese la cantidad" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Estado</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
 
 
     </section>
@@ -157,7 +234,7 @@
 
     </section>
 
-    
+
     <section class="seccion" id="ingresar_base">
         <h1> Ingresar </h1>
     </section>
@@ -219,7 +296,7 @@
         <h1>Visualizar</h1>
     </section>
 
-    section.seccion#ingresar*4>h1
+
 
 
 
